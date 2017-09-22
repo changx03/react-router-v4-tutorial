@@ -1,10 +1,21 @@
-export Home from './Home'
-export BasicRouting from './BasicRouting'
-export Content from './Content'
-export Blocking from './Blocking'
-export Miss from './Miss'
-export QueryParams from './QueryParams'
-export Recursive from './Recursive'
-export Protected from './Protected'
-export NoMatch from './NoMatch'
-export Login from './Login'
+import Home from './Home';
+import BasicRouting from './BasicRouting';
+import Content from './Content';
+import Blocking from './Blocking';
+import Miss from './Miss';
+import QueryParams from './QueryParams';
+import Recursive from './Recursive';
+import Protected from './Protected';
+import NoMatch from './NoMatch';
+import Login from './Login';
+
+module.exports.Home = Home;
+module.exports.BasicRouting = BasicRouting;
+module.exports.Content = Content;
+module.exports.Blocking = Blocking;
+module.exports.Miss = Miss;
+module.exports.QueryParams = QueryParams;
+module.exports.Recursive = Recursive;
+module.exports.Protected = Protected;
+module.exports.NoMatch = NoMatch;
+module.exports.Login = Login;
